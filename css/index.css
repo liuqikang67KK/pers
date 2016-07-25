@@ -1,0 +1,145 @@
+@import url(common.css);
+
+body{
+	background:#323B43;
+	width: 70%;
+	margin:0 auto; 
+}
+.job{
+	cursor: pointer;
+	color:#fff;
+}
+
+.carousel-inner img{
+	width: 100%;
+	height: 40%;
+} 
+thead tr {
+ height:50px;
+}
+.table>thead >tr> th{
+	line-height:30px;
+}
+h2{
+	margin: 20px 0;
+	font-size: 20px;
+	font-weight: bold;
+	color:#fff;
+}
+.pra{
+	color: #fff;
+}
+.progress{
+	height: 30px;
+	margin:0;
+}
+.progress-bar{
+	line-height: 30px;
+}
+.pra .table td{
+	padding: 0 0 0 10px;
+	vertical-align: middle;
+	border: 0;
+	height: 40px;
+	line-height: 40px;
+}
+.pra .table td:first-of-type{
+	width: 13%;
+}
+#practice .panel{
+	font-size: 15px;
+}
+
+.contact{
+	border:1px solid #fff;
+	border-radius: 5px;
+	background: #323B43; 
+}
+.contact>div{
+	padding: 5px 0;
+}
+.contact kbd{margin-right: 20px;}
+
+.cont{
+	cursor: pointer;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	margin:0 auto; 
+}
+
+.small{
+	margin:0 auto;
+	width:100%;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	background:red;
+	border:1px solid rgba(0,0,0,0);
+	z-index: 3; 
+}
+
+
+.big{
+	width: 200%;
+	height: 200%;
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	transition: transform 1500ms;
+	background: pink;
+	border:1px solid rgba(0,0,0,0); 
+}
+.big .color{
+	width: 50%;
+	height: 50%;
+	font-size: 40px;
+	text-align: center;
+	line-height:250px;
+}
+.big .red{
+	background: #eee;
+	color: blue;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.big .blue{
+	color: red;
+	background: #abc;
+	position: absolute;
+	left: 50%;
+	top: 0;
+}
+.big .green{
+	color: red;
+	background: #ddd;
+	position: absolute;
+	left: 0;
+	top: 50%;
+
+}
+.big .pink{
+	color: blue;
+	background: #ccc;
+	position: absolute;
+	left:50%;
+	top: 50%;
+}
+.big-box{
+	width:100%;
+	height: 300px;
+	background: #eee;
+	position: relative;
+}
+.small-box{
+	width: 100px;
+	height: 100px;
+	border:1px solid red;
+	background: #bbb;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
