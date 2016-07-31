@@ -72,12 +72,4 @@ window.onload=function(){
             }
 
         }
-
-        $('.navbar-right li').click(function(){
-        	// $(this).parent().hide()
-        })
-        $('.navbar-toggle').click(function(){
-        	// $('.navbar-right').show()
-        })
-
 }

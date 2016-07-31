@@ -9,7 +9,12 @@ body{
 	cursor: pointer;
 	color:#fff;
 }
-
+.ee{
+	margin:6px;
+}
+.eight{
+	margin-right: 40px;
+}
 .carousel-inner img{
 	width: 100%;
 	height: 40%;
